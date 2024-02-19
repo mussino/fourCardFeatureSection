@@ -75,15 +75,16 @@ body {
 .container-bottom {
   display: grid;
   place-content: center;
-  gap: 1rem;
+  gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  width: 80vw;
-  margin-top: 80px;
+  width: 80%;
+  max-width: 1000px;
+  margin: 80px auto;
 }
 .container {
   min-height: 250px;
-  padding: 40px;
+  padding: 30px;
   border-radius: 15px;
   /* Fix the shadows */
   box-shadow: 1px 1px 10px var(--clr-neutral-darkBlue);
